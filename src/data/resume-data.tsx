@@ -61,6 +61,7 @@ export const RESUME_DATA = {
       title: "Full Stack Engineer → Tech Lead",
       logo: ParabolLogo,
       start: "2019",
+      end: "2024",
       description:
         "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
     },
