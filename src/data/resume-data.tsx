@@ -157,7 +157,8 @@ export const RESUME_DATA = {
         label: "github.com/pbaveja",
         href: "https://github.com/pbaveja/itunes-podcast-rss-scraper",
       },
-      {
+    },
+    {
       title: "SaaS Boilerplate",
       techStack: ["Open Source", "NextJS", "TypeScript", "MongoDB", "Express"],
       description:
