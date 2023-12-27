@@ -24,9 +24,9 @@ export const RESUME_DATA = {
   location: "New Delhi, India, IST",
   locationLink: "https://www.google.com/maps/place/delhi",
   about:
-    "Full Stack Engineer focused on building products with extra attention to details",
+    "Full Stack Engineer, focused on product dev with an interest across diverse aspects of the process",
   summary:
-    "As a Full Stack Engineer, I have successfully taken products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with React on the frontend, PHP + Python in the backend, and use AWS as the infrastructure. I have over 5 years of experience in working with companies that are product focused.",
+    "As a Full Stack Engineer, I've spearheaded end-to-end product development, adeptly leading teams for performance. My current tech stack includes React for the frontend, and PHP + Python for the backend, all orchestrated on AWS. With over 5 years of experience, I thrive in dynamic, product-focused environments.",
   avatarUrl: "https://avatars.githubusercontent.com/u/22319179?v=1",
   personalWebsiteUrl: "https://prakharbaveja.com",
   contact: {
@@ -63,7 +63,18 @@ export const RESUME_DATA = {
       start: "2019",
       end: "2024",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "I manage a team of developers, which includes diving deep into research, product planning and problem solving. A notable achievment during the products growth has been the micro-serviced API that achieved 50x scale from 5Mil to 1Billion+ requests and 600x scale from 50k to 40Mil downloads and streams.",
+    },
+    {
+      company: "TalentBrew",
+      link: "https://talentbrew.app/",
+      badges: [],
+      title: "Founder",
+      logo: JojoMobileLogo,
+      start: "2023",
+      end: "2024",
+      description:
+        "TalentBrew is an upcoming project of mine. It's an applicant tracking system designed to streamline the hiring process. I started this last year and continue to work on it and implement interesting technological solutions into it.",
     },
     {
       company: "Interglob Technologies",
@@ -72,9 +83,9 @@ export const RESUME_DATA = {
       title: "Java Developer",
       logo: JojoMobileLogo,
       start: "2017",
-      end: "2017",
+      end: "2018",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "Built processes that helped streamline the Java team development lifecycle. This included handling multi tenant architecture requests.",
     },
     {
       company: "Your Space",
@@ -84,7 +95,7 @@ export const RESUME_DATA = {
       logo: NSNLogo,
       start: "2021",
       end: "2023",
-      description: "Creating and testing software for LTE base stations",
+      description: "This consultancy gig had me revamp technical processes and improve the codebase to minify the gap between the management and tech team.",
     },
   ],
   skills: [
@@ -99,164 +110,63 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "TalentBrew",
       techStack: [
-        "Side Project",
-        "TypeScript",
+        "JavaScript",
         "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Supabase",
+        "Vercel",
+        "Tailwind",
       ],
-      description: "A platform to build and grow your online business",
+      description: "A platform to build and help your hiring process",
       logo: ConsultlyLogo,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "talentbrew.app",
+        href: "https://talentbrew.app/",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Hubhopper",
+      techStack: ["PHP", "React", "Microserviced"],
       description:
-        "Browser extension that records everything happening in a web application",
+        "A SaaS that is India's first and largest podcasting hosting and distribution platform",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "hubhopper",
+        href: "https://hubhopper.com/",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "prakharbaveja.com",
+      techStack: ["React", "Spotify API", "MDX", "AntDesign"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
+        "My personal website and blog.",
       logo: JarockiMeLogo,
       link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
+        label: "prakharbaveja.com",
+        href: "https://prakharbaveja.com/",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "RSS processor",
+      techStack: ["NodeJS"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
+        "A configurable service implemented to process RSS' and download data that is readily available inside it",
+      logo: JarockiMeLogo,
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "github.com/pbaveja",
+        href: "https://github.com/pbaveja/itunes-podcast-rss-scraper",
       },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      {
+      title: "SaaS Boilerplate",
+      techStack: ["Open Source", "NextJS", "TypeScript", "MongoDB", "Express"],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
+        "Contributed to a SaaS boilerplate started by the poeple at Async Labs.",
+      logo: JarockiMeLogo,
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
+        label: "Async Labs",
+        href: "https://github.com/async-labs/saas",
+      }
     },
   ],
 } as const;
