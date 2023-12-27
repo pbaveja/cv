@@ -17,101 +17,84 @@ import YearProgressLogo from "../images/logos/yearprogress.svg";
 import Minimal from "../images/logos/minimal.svg";
 import { GitHubIcon } from "../components/icons/GitHubIcon";
 import { LinkedInIcon } from "../components/icons/LinkedInIcon";
-import { XIcon } from "../components/icons/XIcon";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Prakhar Baveja",
+  initials: "PB",
+  location: "New Delhi, India, IST",
+  locationLink: "https://www.google.com/maps/place/delhi",
   about:
     "Full Stack Engineer focused on building products with extra attention to details",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "As a Full Stack Engineer, I have successfully taken products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with React on the frontend, PHP + Python in the backend, and use AWS as the infrastructure. I have over 5 years of experience in working with companies that are product focused.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/22319179?v=1",
+  personalWebsiteUrl: "https://prakharbaveja.com",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "prakharbaveja@gmail.com",
+    tel: "+919871971607",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/pbaveja",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/prakhar-baveja-244907106",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
-      },
+      }
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "University of Delhi",
+      degree: "Bachelor of Science (Honours) in Computer Science",
+      start: "2015",
+      end: "2018",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      company: "Hubhopper",
+      link: "https://hubhopper.com",
+      badges: ["Current"],
+      title: "Full Stack Engineer → Tech Lead",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      start: "2019",
       description:
         "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
     },
     {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "Interglob Technologies",
+      link: "https://www.igtsolutions.com/",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
+      title: "Java Developer",
       logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
+      start: "2017",
+      end: "2017",
       description:
         "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
+      company: "Your Space",
+      link: "https://www.your-space.in/",
       badges: [],
-      title: "C/C++ Developer",
+      title: "Technical Consultant",
       logo: NSNLogo,
-      start: "2010",
-      end: "2012",
+      start: "2021",
+      end: "2023",
       description: "Creating and testing software for LTE base stations",
     },
   ],
   skills: [
     "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "React/Next.js",
+    "Python",
+    "PHP",
+    "Laravel",
+    "MySQL",
+    "Elasticsearch",
+    "AWS"
   ],
   projects: [
     {
