@@ -67,7 +67,7 @@ export const RESUME_DATA = {
     },
     {
       company: "TalentBrew",
-      link: "https://talentbrew.app/",
+      link: "https://talentbrew.in/",
       badges: [],
       title: "Founder",
       logo: JojoMobileLogo,
