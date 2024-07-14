@@ -61,7 +61,7 @@ export const RESUME_DATA = {
       title: "Full Stack Engineer → Tech Lead",
       logo: ParabolLogo,
       start: "2019",
-      end: "2024",
+      end: null,
       description:
         "I manage a team of developers, which includes diving deep into research, product planning and problem solving. A notable achievment during the products growth has been the micro-serviced API that achieved 50x scale from 5Mil to 1Billion+ requests and 600x scale from 50k to 40Mil downloads and streams.",
     },
@@ -71,8 +71,8 @@ export const RESUME_DATA = {
       badges: [],
       title: "Founder",
       logo: JojoMobileLogo,
-      start: "2023",
-      end: "2024",
+      start: "2024",
+      end: null,
       description:
         "TalentBrew is an upcoming project of mine. It's an applicant tracking system designed to streamline the hiring process. I started this last year and continue to work on it and implement interesting technological solutions into it.",
     },
