@@ -40,7 +40,7 @@ export const RESUME_DATA = {
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/prakhar-baveja-244907106",
+        url: "https://www.linkedin.com/in/prakhar-baveja",
         icon: LinkedInIcon,
       }
     ],
@@ -55,13 +55,24 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Google",
+      link: "https://google.com",
+      badges: ["Current", "New"],
+      title: "Software Engineer",
+      logo: ParabolLogo,
+      start: "2025",
+      end: null,
+      description:
+        "Engineering solutions and features for Google Play Games",
+    },
+    {
       company: "Hubhopper",
       link: "https://hubhopper.com",
-      badges: ["Current"],
-      title: "Full Stack Engineer → Tech Lead",
+      badges: [],
+      title: "Full Stack Engineer → Head of Tech",
       logo: ParabolLogo,
       start: "2019",
-      end: null,
+      end: "2025",
       description:
         "I manage a team of developers, which includes diving deep into research, product planning and problem solving. A notable achievment during the products growth has been the micro-serviced API that achieved 50x scale from 5Mil to 1Billion+ requests and 600x scale from 50k to 40Mil downloads and streams.",
     },
